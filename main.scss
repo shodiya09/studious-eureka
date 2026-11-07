@@ -1,0 +1,98 @@
+$background-color: white;
+$color: black;
+$margin-top:100px;
+$display: flex;
+$justify-content:space-between;
+$align-items: center;
+$width:1440px;
+$height:1000px;
+
+
+body{
+    background-color: $background-color;
+}
+.container{
+    width: $width;
+    height: $height;
+    background-color: $background-color;
+    margin-left:300px;
+    margin-top:$margin-top;
+}
+.header{
+    width: 1200px;
+    height:53px;
+    background-color: $background-color;
+    margin-top: $margin-top;
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #46A358;
+}
+nav{
+    ul{
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap:60px;
+    list-style: none;
+
+    li{
+        a{
+            color: $color;
+            font-family: "Arial";
+            text-decoration: none;
+        }
+    }
+}
+}
+.login-btn{
+    width:100px;
+    height: 40px;
+    background-color: #46A358;
+    color: $background-color;
+    border-radius: 10px;
+    padding:10px 20px;
+    font-size:20px;
+    border-color:#46A358;
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    margin-left: 150px;
+    margin-top:-30px;
+
+}
+.box3{
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    margin-top: 160px;
+    gap: 20px;
+}
+.login-btn{
+    img{
+        margin-right: 5px;
+        color: $background-color;
+    }
+}
+.quti{
+    width:1200px;
+    height: 800px;
+    background-color: $background-color;
+    margin-left: $margin-top;
+    margin-top: $margin-top;
+}
+.h1{
+    font-size: 25px;
+    font-family: "Arial";
+
+}
+.box4{
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    margin-top: $margin-top;
+}
